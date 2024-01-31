@@ -1,0 +1,15 @@
+.ProductInfor__amount-input {
+    display: flex;
+   
+}
+.ProductInfor__amount-input input{
+    width: 3rem;
+    border: 1px solid #c8c4c4;
+    padding-left: 2rem;
+    outline: none;
+}
+.ProductInfor__amount-input button{
+    width: 3rem;
+    background-color: transparent;
+    border: 1px solid #d0cccc;
+}

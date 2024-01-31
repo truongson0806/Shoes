@@ -1,0 +1,92 @@
+.Footer{
+    background-color: rgb(252, 248, 248);
+    margin-top: 5rem;
+}
+.Footer__header{
+    height: 7rem;
+    background-color: #fff;
+    border-top:.3rem solid #ee4d2d ;
+    border-bottom: .1rem solid rgba(197, 186, 186, 0.34);
+}
+.container{
+    padding-top: 20px;
+    height: 90%;
+    display: flex;
+    border-bottom: .1rem solid rgba(197, 186, 186, 0.34);
+    justify-content: space-evenly;
+    
+}
+
+h5{
+    font-size: 1.3rem;
+}
+a{
+  text-decoration: none;
+  font-size: 1.2rem;  
+  color: rgba(0,0,0,.54);
+}
+ul{
+    list-style: none;
+}
+.column__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.Footer__Payment img{
+    height: 8rem;
+}
+.Footer__Shipment img{
+    height: 18rem;
+}
+.Footer__download{
+}
+.Footer__download__img{
+    display: flex;
+    gap: 1rem;
+}
+.Footer__download__left img{
+    width: 8rem;
+    height: 8rem;
+}
+.Footer__download__right{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+.Footer__download__right img{
+    width: 8.5rem;
+    height: 2rem;
+}
+
+
+.Footer__footer{
+    height: 3rem;
+    background-color: #ee4d2d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+.Footer__footer__country{
+    display: flex;
+}
+.Footer__footer__country ul{
+    display: flex;
+    
+}
+.Footer__footer__country li{
+    cursor: pointer;
+}
+.Footer__footer__country li:not(last-child){
+    border-right: .1rem solid #eee;
+    margin-right: 1rem;
+    padding-right:1rem ;
+}
+@media only screen and (max-width: 1200px) {
+    .Footer {
+      display: none !important;
+    }
+  }
